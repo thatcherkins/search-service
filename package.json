@@ -1,0 +1,24 @@
+{
+  "name": "search-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-search-service": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thatcherkins/search-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thatcherkins/search-service/issues"
+  },
+  "homepage": "https://github.com/thatcherkins/search-service#readme",
+  "dependencies": {
+    "aws-sdk": "^2.644.0",
+    "sqs-consumer": "^5.4.0"
+  }
+}
